@@ -79,11 +79,9 @@ function draw() {
       boy.y=300;
       boy.scale=1;
       cashG.destroyEach();
-      cashG.setVelocityEach(0);
       diamondsG.destroyEach();
-      diamondsG.setVelocityEach(0);
       jwelleryG.destroyEach();
-      jwelleryG.setVelocityEach(0);
+      swordGroup.destroyEach();
     }
   }
   boy.setCollider("circle",0,0,700);
